@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check(a, b) {
+        let c = a
+        a = b
+        b = c
+        document.write("a =" + a + "b =" + b)
+    }
+
+    let d = +prompt("Nhập số 1")
+    let e = +prompt("Nhập số 2")
+    check(d, e)
+</script>
+</body>
+</html>
